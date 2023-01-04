@@ -1,0 +1,135 @@
+@media (max-width: 1400px) {
+ .banner {
+   height: 650px;
+   background-attachment: initial;
+ }
+  .banner__text {
+    font-size: 31px;
+    font-weight: 600;
+    line-height: 45px;
+    width: 400px;
+  }
+}
+
+
+@media (max-width: 1200px) {
+  %default-header {
+    font-size: 25px;
+  }
+  .header__menu-link {
+    width: 100px;
+  }
+  .banner {
+    width: auto;
+    background-image: url("./sources/mobile/banner.png");
+    height: 650px;
+    background-attachment: initial;
+  }
+  .banner__text {
+    font-size: 31px;
+    font-weight: 600;
+    line-height: 55px;
+  }
+  .slider__description-container,
+  .slider__arrows {
+    opacity: 1;
+  }
+  .header__menu-link:hover {
+    background-color: unset;
+  }
+  .header__menu-link:focus {
+    background-color: rgb(237, 233, 225);
+  }
+}
+
+@media (max-width: 900px) {
+  .header__img-container_logo,
+  .header__phone-container
+  {
+    display: none;
+  }
+  .header__menu-link {
+    width: 83px;
+    font-size: 15px;
+    line-height: 43px;
+  }
+  .reviews__slider {
+    width: auto;
+  }
+  .banner {
+    height: 50vh;
+    width: 100%;
+    background-size: 120%;
+    background-position: center;
+    background-attachment: initial;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  .banner__text {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 38px;
+    width: 40vw;
+    padding-top: initial;
+  }
+  .my-container {
+    margin: 0 auto;
+    width: 95vw;
+  }
+  .header-holder {
+    height: 96px;
+  }
+  .about__right-block {
+    display: none;
+  }
+  .taxi-img {
+    background-attachment: initial;
+  }
+  .taxi-img-holder {
+    margin-top: 50px;
+  }
+  .service__info-block {
+    flex-direction: column;
+    align-items: center;
+  }
+  .service__bottom-text {
+    margin-top: 40px;
+  }
+  .service__slider-images,
+  .reviews__slider-images {
+    height: auto;
+  }
+  .service__slider {
+    margin-top: 40px;
+    width: 87vw;
+    height: auto;
+  }
+  .reviews__slider {
+    width: 100%;
+    height: auto;
+    margin: 30px auto 0 auto;
+  }
+  .table__left-col {
+    width: 70%;
+    max-width: 400px;
+  }
+  .service__table-container {
+    max-width: 600px;
+  }
+  .about__header {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .about__text {
+    font-size: 18px;
+  }
+  .full-slider__arrows-container_left {
+    left: 35px;
+  }
+  .full-slider__arrows-container_right {
+    right: 35px;
+  }
+
+
+}

@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'helvetica';
+    src: local('helvetica'),
+    url('HELR45Wwoff.ttf') format('woff'),
+    url("HELR45Wopentype.ttf") format("opentype"),
+    url("HELR45Wtruetype.ttf") format("truetype");
+}

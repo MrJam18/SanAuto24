@@ -1,0 +1,6 @@
+node_modules/
+build/
+data/
+sources/
+index.css.map
+index.css

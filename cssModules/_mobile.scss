@@ -1,0 +1,119 @@
+@media (max-width: 450px) {
+  %default-header {
+    font-size: 23px;
+  }
+  %normal-text {
+    font-size: 16px;
+  }
+  .header__img-container {
+    display: none;
+  }
+  .header__container {
+    width: 98%;
+    margin: 10px auto;
+  }
+  .header__menu-link {
+    width: auto;
+    padding: 2px 8px;
+    font-weight: bold;
+    min-width: 58px;
+  }
+  .banner {
+    background-size: 200%;
+  }
+  .banner__text {
+    font-size: 23px;
+    line-height: 28px;
+    width: 60vw;
+  }
+  .my-container {
+    width: 97.5%;
+  }
+  .about__text {
+    font-size: 16px;
+  }
+  .about__bottom-text {
+    font-size: 16px;
+  }
+  .taxi-img-holder {
+    display: none;
+  }
+  .service__table-container {
+    max-width: 98vw;
+  }
+  .service__bottom-text {
+    width: 100%;
+  }
+  .slider {
+    width: 100%;
+  }
+  .service__slider {
+    margin-top: 20px;
+  }
+  .service__text-header {
+    font-size: 18px;
+  }
+  .reviews__slider {
+    display: none;
+  }
+  .reviews__mobile-slider {
+    display: initial;
+  }
+  .reviews__mobile-slider-images {
+    height: auto;
+  }
+  .reviews__mobile-slider {
+    display: flex;
+    justify-content: center;
+    margin: 15px auto 0;
+  }
+  .mobile-slider,
+  .mobile-slider__inner,
+  .reviews__mobile-slider {
+    width: 95vw;
+    max-height: 173px;
+    max-width: 300px;
+  }
+  .footer__messengers-contacts {
+    max-width: 130px;
+  }
+  .footer__icon {
+    width: 37px;
+    height: 37px;
+  }
+  .footer__icon_instagram {
+    padding-bottom: 2px;
+    width: 39px;
+    height: 39px;
+  }
+  .footer__contacts-header {
+    font-size: 20px;
+  }
+  .footer__contacts-refs-container {
+    margin-top: 10px;
+  }
+  .footer__contacts-ref {
+    margin-top: 3.5px;
+    font-size: 15px;
+    letter-spacing: initial;
+  }
+  .full-slider__arrows-container_right {
+    right: 10px;
+  }
+  .full-slider__arrows-container_left {
+    left: 10px;
+  }
+  .full-slider__image {
+    max-width: 75vw;
+  }
+  .full-slider__close-button {
+    top: 30px;
+    right: 15px;
+  }
+  .slider__description {
+    width: 100%;
+  }
+  .full-slider__description-container {
+    max-width: 90vw;
+  }
+}

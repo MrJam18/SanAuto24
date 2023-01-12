@@ -116,7 +116,7 @@ a, a:hover {
     width: 122px;
     transition: background-color 0.4s ease;
 }
-.header__menu-link:focus {
+.header__menu-link_active {
     background-color: rgb(237, 233, 225);
 }
 .header__menu-link:hover {
@@ -410,6 +410,20 @@ a, a:hover {
     font-size: 45px;
     opacity: 0;
     transition: $transition-opacity;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider__arrow-svg {
+    fill: white;
+    opacity: 0.7;
+    transition: opacity 0.15s;
+}
+.slider__arrow-svg:hover {
+    opacity: 1;
+}
+.slider__arrow-svg_right {
+    padding-left: 11px;
 }
 .slider__full-slider-button {
     width: 100%;
@@ -427,6 +441,7 @@ a, a:hover {
 }
 .slider__arrows-container__with-button {
     position: unset;
+    opacity: 1;
 }
 .carousel-inner {
     background: #bbbcb9;
